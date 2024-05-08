@@ -38,7 +38,8 @@ locals {
   # Commmon tags to be assigned to all resources
   common_tags = "${map(
    " User", "${var.user}",
-   " CostCenter", "${var.cost_center}"
+   " CostCenter", "${var.cost_center}",
+   " Environment", "${var.environment}"
  )}"
 }
 
