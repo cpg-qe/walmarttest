@@ -39,7 +39,7 @@ locals {
   common_tags = "${map(
    " User", "${var.user}",
    " CostCenter", "${var.cost_center}",
-   " Environment", "${var.environment}"
+   " Environment", "${var.Environment}"
  )}"
 }
 
