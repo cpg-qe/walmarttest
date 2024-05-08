@@ -13,7 +13,7 @@ variable "user" {
 
 variable "cost_center" {
   description = "Cost Center of the User requesting the resources"
-  default = "admin"
+  default = "6092-ITOMQE"
 }
 
 variable "subscriptionId" {}
@@ -21,11 +21,11 @@ variable "clientId" {}
 variable "clientSecret" {}
 variable "tenantId" {}
 
-variable "dummy" {
-  default = "dummy"
+variable "Environment" {
+  default = "Test"
 }
 
-variable "dummy1" {
-  default = "dummy"
+variable "Owner" {
+  default = "x1pcatest01"
 }
 
