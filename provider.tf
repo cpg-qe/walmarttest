@@ -4,5 +4,7 @@ provider "azurerm" {
   client_secret   = "${var.clientSecret}"
   tenant_id       = "${var.tenantId}"
   version = ">=1.44.0"
+
+  features {}
 }
 
